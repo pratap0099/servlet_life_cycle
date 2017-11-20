@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>hello_servlet1</servlet-name>
+		<servlet-class>servlet_life_cycle.Aaa</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello_servlet1</servlet-name>
+		<url-pattern>/welcom</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
